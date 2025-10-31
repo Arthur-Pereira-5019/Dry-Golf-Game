@@ -25,15 +25,15 @@ public class bola : MonoBehaviour
     void Update()
     {
         lr.SetPosition(0, transform.position);
-        lr.SetPosition(1, new Vector3(transform.position.x + x, transform.position.y, transform.position.z + z);
+        lr.SetPosition(1, new Vector3(transform.position.x + x, transform.position.y, transform.position.z + z));
         if(Input.GetButtonDown("Jump") && lr.enabled)
         {
             rb.AddForce(new Vector3(2 * x, 0, 2 * z), ForceMode.Impulse);
                 lr.enabled = false;
-            if(GameManager.gm )
+            /* if(GameManager.gm )
             {
                 GameManager.gm.tacada();
-            }
+            }*/
         }
         velocidade = rb.velocity.magnitude;
         if(velocidade < 0.05f)
