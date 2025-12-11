@@ -28,7 +28,7 @@ public class bola : MonoBehaviour
     void Update()
     {
         velocidade = rb.velocity.magnitude;
-        if(velocidade < 0.05f)
+        if(velocidade < 0.2f)
         {
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
