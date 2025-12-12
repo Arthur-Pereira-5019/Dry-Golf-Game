@@ -40,7 +40,12 @@ public class bola : MonoBehaviour
             {
                 if (GameManager.gm)
                 {
-                    
+                    if(GameManager.gm.wind == true)
+                    {
+                        GetComponent<Rigidbody>().AddForce(
+                        new Vector3(-0.005f, 0f, 0f),
+                        ForceMode.Impulse);
+                    }
                 }
             }
             lr.enabled = false;

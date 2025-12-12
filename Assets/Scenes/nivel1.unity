@@ -188,6 +188,7 @@ MonoBehaviour:
   player: {fileID: 0}
   camera1: {fileID: 963194225}
   camera2: {fileID: 1287046461}
+  wind: 0
   mapa: 1
 --- !u!4 &286173568
 Transform:
@@ -1028,10 +1029,6 @@ PrefabInstance:
     - target: {fileID: 439040198885496920, guid: 328114eec2c35c44da12a484099643bc, type: 3}
       propertyPath: m_Name
       value: TelaPadrao
-      objectReference: {fileID: 0}
-    - target: {fileID: 439040198885496920, guid: 328114eec2c35c44da12a484099643bc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3324929221345708437, guid: 328114eec2c35c44da12a484099643bc, type: 3}
       propertyPath: m_Pivot.x

@@ -2671,7 +2671,7 @@ MonoBehaviour:
   distance: 10
   height: 40
   heightDamping: 2
-  rotationDamping: 180
+  rotationDamping: 0
 --- !u!1 &984425410
 GameObject:
   m_ObjectHideFlags: 0
@@ -6920,6 +6920,10 @@ PrefabInstance:
     - target: {fileID: 4399155058071608237, guid: 1433bb0bce5fe05458b12a67940f67be, type: 3}
       propertyPath: m_Name
       value: Bola
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566963440407225738, guid: 1433bb0bce5fe05458b12a67940f67be, type: 3}
+      propertyPath: speed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5155699670994947064, guid: 1433bb0bce5fe05458b12a67940f67be, type: 3}
       propertyPath: m_Materials.Array.size

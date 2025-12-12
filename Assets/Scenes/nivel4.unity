@@ -2127,10 +2127,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TelaFim
       objectReference: {fileID: 0}
-    - target: {fileID: 8186735528786557462, guid: 56dd13935d74625439f85778d303452e, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

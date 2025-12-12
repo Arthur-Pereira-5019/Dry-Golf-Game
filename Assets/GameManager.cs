@@ -32,6 +32,8 @@ public class GameManager : MonoBehaviour
     public GameObject camera1;
     public GameObject camera2;
 
+    public bool wind;
+
     void Awake()
     {
         if (gm != null && gm != this)
@@ -50,6 +52,10 @@ public class GameManager : MonoBehaviour
         canvaFinal.enabled = false;
         player = GameObject.FindWithTag("Player");
         updateScore();
+        if(mapa == 4)
+        {
+            wind = true;
+        }
     }
 
     void Update()
